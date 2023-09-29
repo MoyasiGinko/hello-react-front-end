@@ -20,7 +20,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📚🎵🎮 Hello react from Api <a name="about-project"></a>
+# 📚 Hello React <a name="about-project"></a>
 
 **Hello-React-Front-End** in this repo, i am calling the rails api from react with webpack .
 
