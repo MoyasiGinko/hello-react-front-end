@@ -8,9 +8,7 @@ const Greetings = () => {
 
   useEffect(() => {
     dispatch(fetchGreetings());
-  }, []);
-
-  console.log(greeting);
+  }, [dispatch]);
 
   if (loading) {
     return <p>Loading...</p>;
