@@ -1,26 +1,18 @@
 <a name="readme-top"></a>
 
-<div align="center">
-  <img src="cms-logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h2><b>Cost Management - CMS</b></h2>
-</div>
+# Hello React Front End
 
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
+  - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
   - [Setup](#setup)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
-  - [Live Demo](#live-demo)
+  - [Prerequisites](#prerequisites)
+- [Usage](#usage)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -28,93 +20,38 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Food Recipe <a name="about-project"></a>
+# 📚🎵🎮 Hello react from Api <a name="about-project"></a>
 
-**[Cost Management - CMS]** is a Full Stack project. A modern Cost Management web application built with Ruby on Rails. Easily track your expenses, manage categories, and stay on top of your financial goals. Features include user authentication, transaction history, and a responsive design for seamless use on any device.
+**Hello-React-Front-End** in this repo, i am calling the rails api from react with webpack .
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> The stacks used to build this project are shown below.
-
 <details>
-  <summary>Frontend</summary>
+<summary>Frontend</summary>
   <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
-    <li><a href="https://rubyonrails.org/">ERB (Embedded Ruby)</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
-    <li><a href="https://tailwindcss.com/">Tailwind CSS</a></li>
+    <li><a href="/">React and Redux</a></li>
   </ul>
-</details>
-<details>
-  <summary>Backend</summary>
   <ul>
-    <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
+    <li><a href="/">HTML and CSS</a></li>
   </ul>
-</details>
-<details>
-  <summary>Database</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-<details>
-  <summary>Authentication</summary>
-  <ul>
-    <li><a href="https://github.com/heartcombo/devise">Devise</a></li>
-  </ul>
-</details>
-<details>
-  <summary>Authorization</summary>
-  <ul>
-    <li><a href="https://github.com/CanCanCommunity/cancancan">CanCanCan</a></li>
-  </ul>
-</details>
-<details>
-  <summary>Deployment</summary>
-  <ul>
-    <li><a href="https://www.heroku.com/">Heroku</a></li>
-  </ul>
-</details>
-<details>
-  <summary>Version Control</summary>
-  <ul>
-    <li><a href="https://git-scm.com/">Git</a></li>
-    <li><a href="https://github.com/">GitHub</a></li>
-  </ul>
-</details>
-<details>
-  <summary>Other Tools</summary>
-  <ul>
-    <li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
-    <li>Command Line</li>
-    <li><a href="https://bundler.io/">Bundler (Ruby gem management)</a></li>
-    <li><a href="https://classic.yarnpkg.com/en/">Yarn/NPM (JavaScript package management)</a></li>
+    <li><a href="/">Javascript</a></li>
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
+### Link to Rails Back End
 
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
+You can find the React app repository [here](https://github.com/MoyasiGinko/hello-rails-back-end/pull/1)
 ### Key Features <a name="key-features"></a>
 
-- **Financial Management**
-- **Categories List**
-- **Transactions List**
-- **User Authentication**
+- **Initialize javascript webpack**
+- **Installed node dependencies**
+- **Render React app**
+- **Installed redux toolkit**
+- **Called api from store**
+- **Display api from message component**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,84 +63,49 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-
-Example command:
-
-```sh
- gem install rails
-```
-
+Install React
 
 ### Setup
 
-Clone this repository to your desired folder:
-
-
-Example commands:
+Clone or download the repository to your local machine.
 
 ```sh
   cd my-folder
-  git clone https://github.com/MoyasiGinko/Cost-Management-Capstone.git
+  git clone https://github.com/MoyasiGinko/hello-react-back-end.git
 ```
+
+Open your terminal and navigate to the cloned project directory.
 
 ### Install
 
-Install this project with:
-
-
-Example command:
+This project does not require additional dependencies, just Ruby interpreter. However, it uses RuboCop as a linter and you should set it up as well.
 
 ```sh
-  cd my-project
-  gem install bundler
-  bundle install
-  npm install
+npm install
 ```
 
 ### Usage
 
-To run the project, execute the following command:
-
-
-Example command:
+To run the project, navigate to the project directory and execute the following command:
 
 ```sh
-  rails server
+  npm run build
+  npm run start
 ```
 
 ### Run tests
 
 To run tests, run the following command:
 
-
-Example command:
+Run the following command
 
 ```sh
-  rspec spec/
+rspec spec/
 ```
-
-
-### Deployment
-> To deploy this project on Heroku, follow these steps:
-
-1. Create a Render account and create a new web service.
-2. Connect your GitHub account to Render.
-3. Select the repository you want to deploy.
-4. Render will automatically detect that this is a Ruby on Rails project and will build it accordingly.
-5. Click on "Create Web Service" and wait for the build to finish.
-6. Once the build is finished, click on "Open App" to see your live application.
-
-You can try other deployment platforms like [Heroku](https://www.heroku.com/) or [Netlify](https://www.netlify.com/).
-### Live Demo <a name="live-demo"></a>
-
-[Live Demo Link](https://rails-8sbg.onrender.com/)
-
-[Presentation Video](https://www.loom.com/share/90bf801fe7134f3c91696308f2e89a48?sid=6c0f3195-18e7-4ef6-9704-d4019104719f)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
 👤 **Moyasi**
 
@@ -213,36 +115,31 @@ You can try other deployment platforms like [Heroku](https://www.heroku.com/) or
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🔭 Future Features <a name="future-features"></a>
+## 🔭 Future Features <a name="features"></a>
 
-- [ ] **User Profiles and Authentication**
-- [ ] **User photos**
-- [ ] **Advanced Search and Filters**
-- [ ] **More details to categories and transactions**
+- **Integral Testing** The application will be tested with Jest.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
+Contributions to the User Interface are welcome! If you find any issues or have suggestions for improvements, please feel free to submit a pull request or open an issue on the project repository.
 
-Feel free to check the [issues page](https://github.com/MoyasiGinko/Cost-Management-Capstone/issues)
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, don't forget to give it a star on GitHub! Your support helps us to continue improving the app.
-
+If you like this project give us a star ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-At first, I would like to thank Microverse for providing such amaizng documentation. I would like to thank our Microverse community for their support and encouragement.
+Special thanks to our team and the Ruby community for their support and contributions
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 📝 License <a name="license"></a>
 
